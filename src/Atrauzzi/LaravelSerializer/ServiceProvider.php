@@ -11,7 +11,7 @@
 	class ServiceProvider extends Base {
 
 		public function boot() {
-			$this->package('wisebanyan/laravel-serializer', 'serializer');
+			$this->package('atrauzzi/laravel-serializer', 'serializer');
 		}
 
 		public function register() {
